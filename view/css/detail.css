@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+#header {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 100px;
+}
+
+#header .topheader{
+    width: 100%;
+    height: 67px;
+    border-bottom: 1px solid black;
+    margin-bottom: 100px;
+}
+
+#header .topheader .logo{
+    height: 65px;
+    float: left;
+    width: 100px;
+}
+
+#header .topheader .logo a{
+    padding-left: 120px;
+    font-size: 57px;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    height:65px;
+    line-height: 65px;
+}
+
+
+#header .topheader .list {
+    height: 65px;
+    float: left;
+    width: auto;
+}
+
+#header .topheader .list ul{
+    margin-left: 330px;
+    float: left;
+    height: 65px;
+
+}
+
+#header .topheader .list ul li{
+    display: inline-block;
+    height: 65px;
+    line-height: 65px;
+    margin: 0px 18px;
+}
+
+#header .topheader .list ul li a{
+    font-weight: 40px;
+    color:black;
+    text-align: center;
+}
+
+#header .topheader .list ul li a:hover{
+    border-bottom: 1px solid black;
+}
+/*====================*/
+#content
+{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+
+#content .split{
+    width:1000px;
+    margin: 0px auto;
+}
+
+#content .split .anh{
+    float:left;
+    width: 44%;
+    margin-right: 4%;
+}
+
+#content .split .anh img{
+    width: 100%;
+    height: auto;
+    border: 1px solid gainsboro;
+}
+
+#content .split .txtsplit{
+    float: left;
+    width: 52%;
+    margin: 0px 0px 0px 0px;
+}
+
+#content .split .txtsplit h2{
+    font-weight: bold;
+    font-size: 32px;
+    margin: 18px;
+
+}
+
+#content .split .txtsplit h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+
+}
+
+
+#content .split .txtsplit button{
+    display: block;
+    width: 60%;
+    margin: 30px auto 0px auto;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #e2e2e2;
+    height: 50px;
+    margin-top: 80px;
+    
+}
+
+
+#content .split .txtsplit button:hover{
+    background-color: lightcoral;
+    
+}
+
+/*==========================*/
+#footer{ 
+    width: 100%;
+    height: 200px;
+    background-color: #161616;
+
+}
+
+#footer .ft{
+    padding-left: 100px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+#footer .ft span{
+    color: #a0855b;
+}
